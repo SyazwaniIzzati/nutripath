@@ -1,0 +1,78 @@
+/* Reset body background ONLY for dashboard */
+body {
+    background: #ffffff;
+}
+
+/* Main container */
+.dashboard-container {
+    min-height: calc(100vh - 140px);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Titles */
+.dashboard-title {
+    font-size: 30px;
+    color: #5C2F0A;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.dashboard-subtitle {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* User Stats */
+.user-stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.user-stats .stat {
+    background: #f9f9f9;
+    padding: 18px 28px;
+    border-radius: 14px;
+    font-size: 16px;
+    min-width: 190px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.user-stats i {
+    color: #4CAF50;
+    margin-right: 8px;
+}
+
+/* Weight Graph */
+.graph-container {
+    max-width: 520px;
+    margin: 0 auto 50px;
+    background: #f9f9f9;
+    padding: 22px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Carousel */
+.carousel-container {
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
